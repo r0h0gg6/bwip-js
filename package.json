@@ -6,7 +6,7 @@
     "types": "./dist/bwip-js-rn.d.ts",
     "import": "./dist/bwip-js-rn.mjs"
   },
-  "main": "./dist/bwip-js-rn.js",
+  "main": "./dist/bwip-js-rn.mjs",
   "types": "./dist/bwip-js-rn.d.ts",
   "dependencies": {
     "react-zlib-js": "^1.0.5"
