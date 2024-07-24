@@ -5,8 +5,11 @@
   "type": "module",
   "exports": {
     "./package.json": "./package.json",
-    "types": "./dist/bwip-js-rn.d.ts",
-    "import": "./dist/bwip-js-rn.mjs"
+    ".": {
+      "import": "./dist/bwip-js-rn.mjs",
+      "module": "./dist/bwip-js-rn.mjs",
+      "types": "./dist/bwip-js-rn.d.ts"
+    }
   },
   "main": "./dist/bwip-js-rn.mjs",
   "module": "./dist/bwip-js-rn.mjs",
