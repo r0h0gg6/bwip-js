@@ -5056,7 +5056,6 @@ import Buffer from "react-zlib-js/buffer.js";
     loadFont: LoadFont,
     FontLib,
     BWIPJS_VERSION,
-    BWIPP_VERSION,
   };
 });
 export function auspost(opts, dwg) {
