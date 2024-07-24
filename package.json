@@ -3,14 +3,6 @@
   "version": "4.5.0",
   "description": "JavaScript barcode generator supporting over 100 types and standards.",
   "type": "module",
-  "exports": {
-    "./package.json": "./package.json",
-    ".": {
-      "import": "./dist/bwip-js-rn.mjs",
-      "module": "./dist/bwip-js-rn.mjs",
-      "types": "./dist/bwip-js-rn.d.ts"
-    }
-  },
   "main": "./dist/bwip-js-rn.mjs",
   "module": "./dist/bwip-js-rn.mjs",
   "react-native": "./dist/bwip-js-rn.mjs",
